@@ -51,7 +51,7 @@ export default function Menu() {
                 </div>
             </nav>
             <Switch>
-                <Route exact path="/">
+                <Route exact path="/profile">
                     <Home />
                 </Route>
                 <Route path="/about">
