@@ -1,6 +1,7 @@
 {
   "name": "profile",
   "version": "0.1.0",
+  "homepage": "https://prodyut-das-repo.github.io/profile",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
@@ -22,7 +23,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -47,6 +50,7 @@
     "@typescript-eslint/eslint-plugin": "^5.6.0",
     "@typescript-eslint/parser": "^5.6.0",
     "eslint": "^7.32.0",
+    "gh-pages": "^4.0.0",
     "react-draggable": "^4.4.5",
     "typescript": "^4.8.3"
   }

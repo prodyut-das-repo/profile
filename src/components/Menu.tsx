@@ -36,10 +36,10 @@ export default function Menu() {
     return (
         <Router>
             <nav>
-                <div className="logo"><Link to="/">Prodyut Das</Link></div>
+                <div className="logo"><Link to="/profile">Prodyut Das</Link></div>
                 <div className="navbar">
                     <ul className="nav-menu" ref={navMenu}>
-                        <li className="nav-item"><Link to="/">Home</Link></li>
+                        <li className="nav-item"><Link to="/profile">Home</Link></li>
                         <li className="nav-item"><Link to="/about">About</Link></li>
                         <li className="nav-item"><Link to="/dashboard">Dashboard</Link></li>
                     </ul>
