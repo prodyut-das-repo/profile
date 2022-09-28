@@ -1,8 +1,7 @@
 .App {
-  background-color: #230e0e;
+  background-color: #062c2d;
   min-height: 100vh;
   font-size: calc(10px + 2vmin);
   color: white;
-  overflow: hidden;
 }
 

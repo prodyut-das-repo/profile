@@ -3,7 +3,7 @@ import '../../style/editor.scss';
 import Dropdown from './Dropdown';
 import Draggable from 'react-draggable';
 
-export default function Editor() {
+export default function Editor(props: any) {
     const typingText = useRef<HTMLDivElement>(null)
     useEffect(() => {
         // set up text to print, each item in array is new line
@@ -45,14 +45,17 @@ export default function Editor() {
             }
         }
         typewriter();
-    }, [])
+    }, []);
+
+    const handleClick = () => {
+        props.handleZindex(props.index);
+    }
     return (
 
-        <div className='editor'>
-            <Draggable
+            <Draggable onDrag={handleClick}
                 handle=".space-between">
-                <div>
-                    <div id="window">
+                <div ref={props.reference}>
+                    <div id="window" onClick={handleClick}>
                         <div className='flex space-between'>
                             <div id="title"></div>
                             <div id="title">prodyut@linux-core :~</div>
@@ -80,7 +83,5 @@ export default function Editor() {
                 </div>
             </Draggable>
 
-            {/* <div id='typedtext' ref={typingText} ></div> */}
-        </div>
     )
 }
