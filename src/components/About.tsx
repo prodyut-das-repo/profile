@@ -1,7 +1,9 @@
-
+import './../style/about.scss'
 
 export default function About() {
   return (
-    <div>About</div>
+    <div className='card-about'>
+
+    </div>
   )
 }

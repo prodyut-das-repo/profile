@@ -13,18 +13,18 @@ export default function Menu() {
     return (
         <Router>
             <nav>
-                <a href="#profile" className="navbar__link">
+                <span  className="navbar__link">
                     <span className="navbar__icon"><Link to="/profile"><IoHomeOutline color='white'/></Link></span>
                     <span className="navbar__label">Home</span>
-                </a>
-                <a href="#about" className="navbar__link">
+                </span>
+                <span  className="navbar__link">
                     <span className="navbar__icon"><Link to="/about"><IoPersonCircle color='white'/></Link></span>
                     <span className="navbar__label">About</span>
-                </a>
-                <a href="#dashboard" className="navbar__link">
+                </span>
+                <span className="navbar__link">
                     <span className="navbar__icon"><Link to="/dashboard"><IoConstructSharp color='white'/></Link></span>
                     <span className="navbar__label">Work</span>
-                </a>
+                </span>
             </nav>
             <Switch>
                 <Route exact path="/profile">

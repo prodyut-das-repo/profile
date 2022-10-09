@@ -1,37 +1,88 @@
-header {
-  text-align: center;
-  font-size: 70px;
-  font-weight: 700;
+$image: './../assets/team.jpg';
+
+.home {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
 }
 h1 {
-  text-align: center;
-  font-size: 60px;
-  font-weight: 700;
-  padding: 3rem;
+  font-family: "Courier New", monospace;
 }
-img {
-  position: absolute;
-  top: 23%;
-  left: -15%;
-  height: 800px;
+
+.typing{
+  width: 500px;
+  max-width: 500px;
+  height: 400px;
 }
-.flex{
-    display: flex;
-    justify-content: space-around;
+
+.cover {
+  -webkit-filter: drop-shadow(5px 5px 5px #222 );
+    filter: drop-shadow(10px 10px 10px #222);
 }
-@media screen and (max-width: 480px) {
-  a.nav-link {
-    padding: 0.75rem 0;
+.container p span.typed-text {
+  font-weight: normal;
+  color: #dd7732;
+}
+.container p span.cursor {
+  display: inline-block;
+  background-color: #ccc;
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 1s infinite;
+}
+.container p span.cursor.typing {
+  animation: none;
+}
+@keyframes blink {
+  0% {
+    background-color: #ccc;
   }
-  img {
-    position: absolute;
-    top: 24%;
-    left: -15%;
-    height: 350px;
+  49% {
+    background-color: #ccc;
   }
-  header {
-    text-align: center;
-    font-size: 80px;
-    font-weight: 700;
+  50% {
+    background-color: transparent;
+  }
+  99% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: #ccc;
+  }
+}
+
+.team {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  background-image: url($image);
+  background-size: cover;
+  background-position: center;
+  font-family: 'Rajdhani', sans-serif;
+  height: 600px;
+  border-radius: 50px;
+}
+.padding-section{
+  padding: 0 80px 0 80px;
+}
+
+@media screen and (max-width: 600px) {
+  .home {
+    flex-direction: column;
+  }
+  .cover {
+    height: 400px;
+    width: 350px;
+  }
+  .typing{
+    width: 350px;
+    height: 200px;
+    max-width: 350px;
+  }
+  .padding-section{
+    padding: 0 20px 0 20px;
+  }
+  .team {
+    height: 300px;
   }
 }
