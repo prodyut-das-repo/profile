@@ -2,6 +2,7 @@ import '../style/home.scss';
 import { ReactComponent as Cover } from './../assets/cover.svg';
 import TypeWriterEffect from 'react-typewriter-effect';
 import Card from './Card';
+import Footer from './Footer';
 
 export default function Home() {
 
@@ -40,6 +41,7 @@ export default function Home() {
         <Card/>
         <Card/>
         <Card/>
+        <Footer/>
     </>
   )
 }
