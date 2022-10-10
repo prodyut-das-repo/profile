@@ -1,12 +1,31 @@
-import './../style/card.scss'
-export default function Card() {
+import './../style/card.scss';
+import TypeWriterEffect from 'react-typewriter-effect';
+
+interface ICard {
+    text?: string;
+    shield?: string;
+}
+export default function Card(props: ICard) {
     return (
         <div className="container-card">
             <div className="card">
                 <div className="overlay">
                     <div className="overlay-text">
-                        <h2>Card</h2>
-                        <p>Hi this is a card with some hidden text and buttons when you hover over de card</p><br />
+                        <img src={props.shield} height="200" />
+                        <p className='text'>
+                            <TypeWriterEffect
+                                textStyle={{
+                                    fontFamily: 'Courier New',
+                                    color: 'white',
+                                    fontWeight: 700,
+                                    fontSize: '0.7em',
+                                  }}
+                                startDelay={100}
+                                cursorColor="white"
+                                text={props.text}
+                                typeSpeed={30}
+                            />
+                        </p>
                     </div>
                 </div>
             </div>

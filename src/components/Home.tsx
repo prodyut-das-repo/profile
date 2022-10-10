@@ -3,6 +3,8 @@ import { ReactComponent as Cover } from './../assets/cover.svg';
 import TypeWriterEffect from 'react-typewriter-effect';
 import Card from './Card';
 import Footer from './Footer';
+import team from './../assets/team-player.png'
+
 
 export default function Home() {
 
@@ -10,26 +12,19 @@ export default function Home() {
     <>
       <div className='home'>
         <span className='typing'>
-          <h1>Hey there, I'm Prodyut Das</h1>
+          <h1>Hey there, This is Prodyut Das!</h1>
           <TypeWriterEffect
-            textStyle={{
-              fontFamily: 'Courier New',
-              color: 'white',
-              fontWeight: 700,
-              fontSize: '1.2rem',
-            }}
-            startDelay={2000}
-            cursorColor="black"
-            multiText={[
-              'Hey there, This is a type writer animation package',
-              'it consist of two types...',
-              'Single text display and multi text display',
-              'Fonts can be customized.',
-              'The type speed can be customized as well',
-            ]}
-            multiTextDelay={1000}
-            typeSpeed={70}
-          />
+                                textStyle={{
+                                    fontFamily: 'Courier New',
+                                    color: '#98ffee',
+                                    fontWeight: 700,
+                                    fontSize: '0.7em',
+                                  }}
+                                startDelay={100}
+                                cursorColor="white"
+                                text={`I'm a software engineer with over 4 years of experience working in the tech industry delivering top-notch app development and troubleshooting. Highly adept in leading engineer teams to achieve software development upgrades.`}
+                                typeSpeed={30}
+                            />
         </span>
         <Cover className='cover' />
       </div>
@@ -38,10 +33,10 @@ export default function Home() {
           <div className='card-title'>Team Player</div>
         </div>
       </div> */}
-        <Card/>
-        <Card/>
-        <Card/>
-        <Footer/>
+      <Card text='A team player is someone who actively contributes to their group in order to complete tasks, meet goals or manage projects. Team players actively listen to their coworkers, respect ideas and aim to improve the product or process at hand.' shield={team} />
+      <Card text='' />
+      <Card text='' />
+      <Footer />
     </>
   )
 }

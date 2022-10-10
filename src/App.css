@@ -3,5 +3,15 @@
   min-height: 100vh;
   font-size: calc(10px + 2vmin);
   color: white;
+  animation: fadeInAnimation ease 4s;
+  animation-fill-mode: forwards;
 }
 
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

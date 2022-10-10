@@ -1,4 +1,4 @@
-$image: './../assets/team.jpg';
+$image: "./../assets/team.jpg";
 
 .home {
   display: flex;
@@ -9,15 +9,15 @@ h1 {
   font-family: "Courier New", monospace;
 }
 
-.typing{
+.typing {
   width: 500px;
   max-width: 500px;
   height: 400px;
 }
 
 .cover {
-  -webkit-filter: drop-shadow(5px 5px 5px #222 );
-    filter: drop-shadow(10px 10px 10px #222);
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(10px 10px 10px #222);
 }
 .container p span.typed-text {
   font-weight: normal;
@@ -58,11 +58,11 @@ h1 {
   background-image: url($image);
   background-size: cover;
   background-position: center;
-  font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
   height: 600px;
   border-radius: 50px;
 }
-.padding-section{
+.padding-section {
   padding: 0 80px 0 80px;
 }
 
@@ -74,12 +74,12 @@ h1 {
     height: 400px;
     width: 350px;
   }
-  .typing{
+  .typing {
     width: 350px;
-    height: 200px;
+    height: 350px;
     max-width: 350px;
   }
-  .padding-section{
+  .padding-section {
     padding: 0 20px 0 20px;
   }
   .team {
