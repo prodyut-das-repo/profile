@@ -56,3 +56,8 @@ nav {
   transition: 0.4s ease-in-out;
   letter-spacing: 1.2px;
 }
+@media screen and (max-width: 600px) {
+  .navbar__label {
+    display: none;
+  }
+}
