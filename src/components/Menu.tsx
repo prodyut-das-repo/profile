@@ -7,23 +7,27 @@ import {
 } from "react-router-dom";
 import About from './About';
 import Home from './Home';
-import { IoHomeOutline, IoPersonCircle, IoConstructSharp } from "react-icons/io5";
+import { IoHomeOutline, IoPersonCircle, IoConstructSharp, IoMail, IoCall } from "react-icons/io5";
 
 export default function Menu() {
     return (
         <Router>
             <nav>
-                <span  className="navbar__link">
-                    <span className="navbar__icon"><Link to="/profile"><IoHomeOutline color='white'/></Link></span>
+                <span className="navbar__link">
+                    <span className="navbar__icon"><Link to="/profile"><IoHomeOutline color='white' /></Link></span>
                     <span className="navbar__label">Home</span>
                 </span>
-                <span  className="navbar__link">
-                    <span className="navbar__icon"><Link to="/about"><IoPersonCircle color='white'/></Link></span>
+                <span className="navbar__link">
+                    <span className="navbar__icon"><Link to="/about"><IoPersonCircle color='white' /></Link></span>
                     <span className="navbar__label">About</span>
                 </span>
                 <span className="navbar__link">
-                    <span className="navbar__icon"><Link to="/dashboard"><IoConstructSharp color='white'/></Link></span>
-                    <span className="navbar__label">Work</span>
+                    <span className="navbar__icon"><Link to="/dashboard"><IoMail color='white' /></Link></span>
+                    <span className="navbar__label">Mailing Info</span>
+                </span>
+                <span className="navbar__link" onClick={() => window.open('tel:+919564384487')}>
+                    <span className="navbar__icon"><IoCall color='white' /></span>
+                    <span className="navbar__label">call</span>
                 </span>
             </nav>
             <Switch>

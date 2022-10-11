@@ -25,6 +25,20 @@ export default function Home() {
                                 text={`I'm a software engineer with over 4 years of experience working in the tech industry delivering top-notch app development and troubleshooting. Highly adept in leading engineer teams to achieve software development upgrades.`}
                                 typeSpeed={30}
                             />
+                             <hr></hr>
+                             <br></br>
+                             <TypeWriterEffect
+                                textStyle={{
+                                    fontFamily: 'Courier New',
+                                    color: '#98ffee',
+                                    fontWeight: 700,
+                                    fontSize: '1.5em',
+                                  }}
+                                startDelay={10000}
+                                cursorColor="white"
+                                text={`Ah great! please scroll now ^_^`}
+                                typeSpeed={30}
+                            />
         </span>
         <Cover className='cover' />
       </div>
