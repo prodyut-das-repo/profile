@@ -13,6 +13,7 @@ export default function Home() {
       <div className='home'>
         <span className='typing'>
           <h1>Hey there, This is Prodyut Das!</h1>
+          <button className="btn blue">Download Resume</button>
           <TypeWriterEffect
                                 textStyle={{
                                     fontFamily: 'Courier New',
@@ -42,15 +43,16 @@ export default function Home() {
         </span>
         <Cover className='cover' />
       </div>
+      <br/>
       {/* <div className='padding-section cover'>
         <div className='team'>
           <div className='card-title'>Team Player</div>
         </div>
       </div> */}
       <Card text='A team player is someone who actively contributes to their group in order to complete tasks, meet goals or manage projects. Team players actively listen to their coworkers, respect ideas and aim to improve the product or process at hand.' shield={team} />
-      <Card text='' />
-      <Card text='' />
-      <Footer />
+      <Card text='A team player is someone who actively contributes to their group in order to complete tasks, meet goals or manage projects. Team players actively listen to their coworkers, respect ideas and aim to improve the product or process at hand.' shield={team} />
+      <Card text='A team player is someone who actively contributes to their group in order to complete tasks, meet goals or manage projects. Team players actively listen to their coworkers, respect ideas and aim to improve the product or process at hand.' shield={team} />
+      <Footer/>
     </>
   )
 }

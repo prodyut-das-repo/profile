@@ -15,10 +15,6 @@ h1 {
   height: 400px;
 }
 
-.cover {
-  -webkit-filter: drop-shadow(5px 5px 5px #222);
-  filter: drop-shadow(10px 10px 10px #222);
-}
 .container p span.typed-text {
   font-weight: normal;
   color: #dd7732;
@@ -32,6 +28,24 @@ h1 {
 }
 .container p span.cursor.typing {
   animation: none;
+}
+.btn {
+  margin-bottom: 15px;
+  width: 200px;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  font-family: "Courier New", monospace;
+}
+.blue {
+ background-color: rgb(40, 160, 215);
+}
+.blue:hover {
+  box-shadow: 0 5px 15px rgba(40, 160, 215, .4);
 }
 @keyframes blink {
   0% {

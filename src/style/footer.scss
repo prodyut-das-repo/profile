@@ -1,4 +1,51 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
 .footer {
-    font-size: 14px;
-    padding: 5px;
+  background: #000;
+  padding: 30px 0px;
+  font-family: "Copperplate";  text-align: center;
+}
+
+.footer .row {
+  width: 100%;
+  margin: 1% 0%;
+  padding: 0.6% 0%;
+  color: gray;
+  font-size: 0.6em;
+}
+
+.footer .row a {
+  text-decoration: none;
+  color: gray;
+  transition: 0.5s;
+  padding-left: 10px;
+}
+
+.footer .row a:hover {
+  color: #fff;
+}
+
+.footer .row a i {
+  font-size: 2em;
+  margin: 0% 1%;
+}
+.credit{
+    padding: 0;
+}
+@media (max-width: 720px) {
+  .footer {
+    text-align: left;
+    padding: 5%;
+  }
+  .footer .row ul li {
+    display: block;
+    margin: 10px 0px;
+    text-align: left;
+  }
+  .footer .row a i {
+    margin: 0% 3%;
+  }
 }

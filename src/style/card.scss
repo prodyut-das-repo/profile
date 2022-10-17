@@ -11,12 +11,17 @@ $image: "./../assets/team.jpg";
   justify-content: center;
   flex-wrap: wrap;
 }
-
+.mobile {
+  display: none;
+}
+.big-screen {
+  display: block;
+}
 .card {
   background-repeat: no-repeat;
   background-position: center center;
   position: relative;
-  width: 80%;
+  width: 74%;
   height: 400px;
   background-image: url($image);
   background-size: cover;
@@ -86,8 +91,29 @@ $image: "./../assets/team.jpg";
   padding: 10px;
   margin-top: 0;
 }
+.image {
+  filter: drop-shadow(10px 10px 10px #222);
+}
+.text-on-card {
+  color: black;
+  margin: auto;
+  padding: 10px;
+  position: absolute;
+  font-family: "Copperplate";
+}
+.flex-card {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
 @media screen and (max-width: 600px) {
   .overlay-text {
     margin: 0;
+  }
+  .mobile {
+    display: block;
+  }
+  .big-screen {
+    display: none;
   }
 }

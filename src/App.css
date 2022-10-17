@@ -7,6 +7,11 @@
   animation-fill-mode: forwards;
 }
 
+.cover {
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(10px 10px 10px #222);
+}
+
 @keyframes fadeInAnimation {
   0% {
     opacity: 0;
