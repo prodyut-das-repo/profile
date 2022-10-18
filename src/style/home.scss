@@ -40,13 +40,16 @@ h1 {
   font-weight: bold;
   color: white;
   font-family: "Courier New", monospace;
+  background-color: rgb(31 45 51);
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
 }
-.blue {
- background-color: rgb(40, 160, 215);
+
+.btn:hover {
+  box-shadow: 0 5px 15px rgba(40, 160, 215, 0.4);
 }
-.blue:hover {
-  box-shadow: 0 5px 15px rgba(40, 160, 215, .4);
-}
+
 @keyframes blink {
   0% {
     background-color: #ccc;

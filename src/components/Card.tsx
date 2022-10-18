@@ -9,7 +9,7 @@ export default function Card(props: ICard) {
     return (
         <>
         <div className="container-card mobile">
-            <div className="card cover">
+            <div className="card shadow">
                 <label className='text-on-card'>Touch me</label>
                 <div className="overlay">
                     <div className="overlay-text">
@@ -34,10 +34,10 @@ export default function Card(props: ICard) {
         </div>
         <div>
         <div className="flex-card big-screen">
-            <div className="card cover">
+            <div className="card shadow">
             </div>
             <div className="overlay-text">
-                        <img src={props.shield} height="200" className='cover' />
+                        <img src={props.shield} height="200" className='shadow' />
                         <p className='text'>
                             <TypeWriterEffect
                                 textStyle={{
