@@ -3,7 +3,11 @@ import { ReactComponent as Cover } from './../assets/cover.svg';
 import TypeWriterEffect from 'react-typewriter-effect';
 import Card from './Card';
 import Footer from './Footer';
-import team from './../assets/team-player.png'
+import team from './../assets/team-player.png';
+import problem from './../assets/problem-solver.png';
+import flexi from './../assets/flexi.png'
+import expertise from './../assets/expertise-image.png'
+
 import { IoDocumentText } from 'react-icons/io5';
 
 
@@ -51,9 +55,10 @@ export default function Home() {
         <Cover className='cover shadow' />
       </div>
       <br />
-      <Card text='A team player is someone who actively contributes to their group in order to complete tasks, meet goals or manage projects. Team players actively listen to their coworkers, respect ideas and aim to improve the product or process at hand.' shield={team} />
-      <Card text='A team player is someone who actively contributes to their group in order to complete tasks, meet goals or manage projects. Team players actively listen to their coworkers, respect ideas and aim to improve the product or process at hand.' shield={team} />
-      <Card text='A team player is someone who actively contributes to their group in order to complete tasks, meet goals or manage projects. Team players actively listen to their coworkers, respect ideas and aim to improve the product or process at hand.' shield={team} />
+      <Card text='A team player is someone who actively contributes to their group in order to complete tasks, meet goals or manage projects. Team players actively listen to their coworkers, respect ideas and aim to improve the product or process at hand.' shield={team} image="team-image"/>
+      <Card text='Generally, the problem could be in any one several places, and you have to devise experiments to narrow down where the problem is. Efficient problem solving requires coming up with experiments that each eliminate about half the possibilities, repeating until you pin down the exact cause.' shield={problem} image="solver-image"/>
+      <Card text='An important capability for businesses to thrive and grow, and even survive, is the ability to react and adapt to change. This relates to customer needs, expansion into new markets, or utilizing the latest and greatest in technology.' shield={flexi} image="flexi-image"/>
+      <Card text="When it comes to difficulties of software development, it's important to understand that sometimes, without true expertise, it is impossible to properly assess the core of the problem." shield={expertise} image="expertise-image"/>
       <Footer />
     </>
   )

@@ -5,7 +5,11 @@
   --gray: #3a4750;
   --darkGray: #303841;
 }
-$image: "./../assets/team.jpg";
+$team-image: "./../assets/team.jpg";
+$solver-image: "./../assets/solver.jpg";
+$flexi-image: "./../assets/flexi-image.jpg";
+$expertise-image: "./../assets/expertise.jpg";
+
 .container-card {
   display: flex;
   justify-content: center;
@@ -23,14 +27,24 @@ $image: "./../assets/team.jpg";
   position: relative;
   width: 74%;
   height: 400px;
-  background-image: url($image);
   background-size: cover;
   border-radius: 12px;
   margin: 50px 50px;
   box-shadow: 3px 3px 10px -1px rgba(0, 0, 0, 0.35);
   transition: 0.5s ease;
 }
-
+.team-image{
+  background-image: url($team-image);
+}
+.solver-image{
+  background-image: url($solver-image);
+}
+.flexi-image {
+  background-image: url($flexi-image);
+}
+.expertise-image {
+  background-image: url($expertise-image);
+}
 .overlay {
   width: 100%;
   height: 402px;
@@ -47,7 +61,7 @@ $image: "./../assets/team.jpg";
 .overlay-text {
   position: relative;
   flex-direction: column;
-  top: 18px;
+  top: 52px;
   padding: 10px;
   width: 100%;
   margin: -20px 50px;
@@ -82,7 +96,10 @@ $image: "./../assets/team.jpg";
 .card:hover {
   transform: scale(1.05);
 }
-
+img:hover {
+  transform: scale(1.05);
+  transition: 0.5s ease-out;
+}
 .overlay:hover {
   opacity: 1;
 }
@@ -90,9 +107,6 @@ $image: "./../assets/team.jpg";
 .text {
   padding: 10px;
   margin-top: 0;
-}
-.image {
-  filter: drop-shadow(10px 10px 10px #222);
 }
 .text-on-card {
   color: black;
@@ -115,5 +129,8 @@ $image: "./../assets/team.jpg";
   }
   .big-screen {
     display: none;
+  }
+  .overlay-text {
+    top: 18px;
   }
 }
