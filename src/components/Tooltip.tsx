@@ -2,7 +2,7 @@ import './../style/tooltip.scss';
 
 export default function Tooltip() {
     return (
-        <span className='tooltip-section'>
+        <div className='tooltip-section'>
             <span className="tooltip js-tooltip">Credits
             <span className="tooltip-wrapper">
                 <span className="tooltip-text"><a className='credit' rel="noreferrer" href="https://www.freepik.com/free-vector/software-development-programming-coding-learning-information-technology-courses-it-courses-all-levels-computing-hi-tech-course-concept_10780254.htm#query=it&position=0&from_view=search&track=sph" target="_blank">Image by vectorjuice</a><br/>
@@ -11,6 +11,6 @@ export default function Tooltip() {
                 <a className='credit' rel="noreferrer" target="_blank" href="https://www.freepik.com/free-vector/product-iteration-concept-illustration_12219841.htm#query=flexibility&from_query=flexibilty&position=5&from_view=search&track=sph">Image by storyset</a><br/>on Freepik</span>
             </span>
             </span>
-        </span>
+        </div>
     )
 }

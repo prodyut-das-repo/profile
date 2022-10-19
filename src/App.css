@@ -5,7 +5,6 @@
   color: white;
   animation: fadeInAnimation ease 4s;
   animation-fill-mode: forwards;
-  overflow-y: hidden;
 }
 
 .shadow {

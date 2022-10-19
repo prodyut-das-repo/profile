@@ -15,7 +15,7 @@ export default function Footer() {
                 </div>
                 <hr></hr>
                 <div className="row">
-                    Copyright © 2022 - All rights reserved | Designed By: Prodyut Das | <Tooltip/>
+                    Copyright © 2022 - All rights reserved | Designed By: Prodyut Das <Tooltip/>
                 </div>
                 <br/>
                 <br/>
