@@ -55,6 +55,7 @@ export default function Home() {
         <Cover className='cover shadow' />
       </div>
       <br />
+      <br/>
       <Card text='A team player is someone who actively contributes to their group in order to complete tasks, meet goals or manage projects. Team players actively listen to their coworkers, respect ideas and aim to improve the product or process at hand.' shield={team} image="team-image"/>
       <Card text='Generally, the problem could be in any one several places, and you have to devise experiments to narrow down where the problem is. Efficient problem solving requires coming up with experiments that each eliminate about half the possibilities, repeating until you pin down the exact cause.' shield={problem} image="solver-image"/>
       <Card text='An important capability for businesses to thrive and grow, and even survive, is the ability to react and adapt to change. This relates to customer needs, expansion into new markets, or utilizing the latest and greatest in technology.' shield={flexi} image="flexi-image"/>
