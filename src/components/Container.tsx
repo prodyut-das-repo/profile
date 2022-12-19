@@ -3,8 +3,8 @@
 
 export default function Dashboard() {
   return (
-    <div>
-        
+    <div style={{padding:'10px'}}>
+        coming soon
     </div>
   )
 }

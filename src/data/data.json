@@ -1,5 +1,69 @@
 {
-    "data": {
-        "name": "Prodyut Das"
-    }
+  "data": {
+    "name": "Prodyut Das",
+    "profile": [
+      "Web Development and 4+ years of experience in taking lead in the development of the software modules as well as their implementation.",
+      "Domain Knowledge: Cloud, Banking, and Finance",
+      "Rich Technical and Architectural understanding.",
+      "Extensive working experience in UI web, Rest-based applications.",
+      "Experience in system analysis, design, workflow architecture, development, testing, and maintenance of web-based applications.",
+      "Good knowledge of Agile/Scrum project methodology.",
+      "Crisp Communication with Clients and work as an interface between team members and Clientcounterparts."
+    ],
+    "work_experience": [
+      {
+        "company": "CAPGEMINI TECHNOLOGY SERVICES INDIA LIMITED",
+        "projects": [
+          {
+            "title": "Wealth Management Application for Internal RM (Project I)",
+            "desc": "Worked for one of the leading banks in Europe towards upgrading their web application for wealth management portal in Angular 6 & Backbase-6, Widget Collection-3 in WA3.",
+            "role": "Frontend Developer",
+            "work": [
+              "Development of modules with Angular 6",
+              "Requirement Analysis & Estimation for the project.",
+              "Integrating widgets with Backend Services developed in spring boot.",
+              "Unit testing using Karma and Jasmine.",
+              "Documentation on confluence and task management in Jira.",
+              "Collaborate with the QA team to define test cases, metrics, and resolve questions about test results.",
+              "Exception handling and performance."
+            ]
+          },
+          {
+            "title": "Wealth Management Application for external clients (Project II)",
+            "desc": "Worked on upgrading existing Backbase-5 project in launchpad collection to Backbase-6 in Widget Collection-3 with Angular 6.",
+            "role": "Fullstack Developer",
+            "work": [
+              "Development of modules with Angular 6",
+              "Integrating modules with Backend Services.",
+              "Development of microservices in spring boot.",
+              "Creating custom layouts and using angular-6 features for widget implementations.",
+              "Careful observation of angular change detection cycle.",
+              "Unit testing of components Documentation on confluence and task management in Jira.",
+              "Used git for version control and merging.",
+              "Perform code reviews and collaborate with peer designers/developers on project work"
+            ]
+          }
+        ]
+      },
+      {
+        "company": "CISCO SYSTEMS INDIA PVT. LTD",
+        "projects": [
+          {
+            "title": "Webex Contact Center",
+            "desc": "It manages customer interactions across various channels. Along with handling inbound and outbound calls, contact center agents also communicate with customers through email, messaging, chat, and social media (Facebook and Whatsapp). Plus, AI-powered virtual agents facilitate faster support whenever they need it.",
+            "role": "Frontend Developer",
+            "work": [
+              "Development of components with Svelte and Javascript & integration of Rest APIs.",
+              "Integration of SignalR APIs with modules and web components which enables to broadcast messages in real-time with multichannel (SMS, Whatsapp, Facebook, and Email).",
+              "Creation of web components with DireFlow.",
+              "For the email feature implementations, components are created with ReactJs and then converted into web components with Direflow.",
+              "Analysis and development of features reducing the dependencies on libraries and boosting web application's performance.",
+              "Prioritize security concerns while development (eg. XSS attacks, auth-related, token safety).",
+              "Automation test on components with Cypress tool and generating reports on test/code coverage."
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

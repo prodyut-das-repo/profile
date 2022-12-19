@@ -7,8 +7,6 @@ interface ICard {
     image?: string
 }
 export default function Card(props: ICard) {
-    console.log(props);
-    
     return (
         <>
         <div className="container-card mobile">

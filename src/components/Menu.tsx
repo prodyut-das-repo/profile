@@ -8,6 +8,7 @@ import {
 import About from './About';
 import Home from './Home';
 import { IoHomeOutline, IoPersonCircle, IoConstructSharp, IoMail, IoCall } from "react-icons/io5";
+import Dashboard from './Container';
 
 export default function Menu() {
     return (
@@ -36,6 +37,9 @@ export default function Menu() {
                 </Route>
                 <Route path="/about">
                     <About />
+                </Route>
+                <Route path="/dashboard">
+                    <Dashboard />
                 </Route>
             </Switch>
         </Router>
