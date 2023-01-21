@@ -19,11 +19,11 @@ export default function Menu() {
                     <span className="navbar__label">Home</span>
                 </span>
                 <span className="navbar__link">
-                    <span className="navbar__icon"><Link to="/about"><IoPersonCircle color='white' /></Link></span>
+                    <span className="navbar__icon"><Link to="/profile/about"><IoPersonCircle color='white' /></Link></span>
                     <span className="navbar__label">About</span>
                 </span>
                 <span className="navbar__link">
-                    <span className="navbar__icon"><Link to="/mail"><IoMail color='white' /></Link></span>
+                    <span className="navbar__icon"><Link to="/profile/mail"><IoMail color='white' /></Link></span>
                     <span className="navbar__label">Mailing Info</span>
                 </span>
                 <span className="navbar__link" onClick={() => window.open('tel:+919564384487')}>
