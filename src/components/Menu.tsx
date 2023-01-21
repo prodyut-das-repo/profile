@@ -35,10 +35,10 @@ export default function Menu() {
                 <Route exact path="/profile">
                     <Home />
                 </Route>
-                <Route path="/about">
+                <Route path="/profile/about">
                     <About />
                 </Route>
-                <Route path="/mail">
+                <Route path="/profile/mail">
                     <Contact />
                 </Route>
             </Switch>
