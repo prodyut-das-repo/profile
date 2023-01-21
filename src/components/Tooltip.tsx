@@ -1,6 +1,9 @@
+import { useState } from 'react';
 import './../style/tooltip.scss';
+import Menu from './Menu';
 
 export default function Tooltip() {
+    const [cool, setcool] = useState(<Menu/>)
     return (
         <div className='tooltip-section'>
             <span className="tooltip js-tooltip">Credits

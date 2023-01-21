@@ -8,7 +8,7 @@ import {
 import About from './About';
 import Home from './Home';
 import { IoHomeOutline, IoPersonCircle, IoConstructSharp, IoMail, IoCall } from "react-icons/io5";
-import Dashboard from './Container';
+import Contact from './Contact';
 
 export default function Menu() {
     return (
@@ -23,7 +23,7 @@ export default function Menu() {
                     <span className="navbar__label">About</span>
                 </span>
                 <span className="navbar__link">
-                    <span className="navbar__icon"><Link to="/dashboard"><IoMail color='white' /></Link></span>
+                    <span className="navbar__icon"><Link to="/mail"><IoMail color='white' /></Link></span>
                     <span className="navbar__label">Mailing Info</span>
                 </span>
                 <span className="navbar__link" onClick={() => window.open('tel:+919564384487')}>
@@ -38,8 +38,8 @@ export default function Menu() {
                 <Route path="/about">
                     <About />
                 </Route>
-                <Route path="/dashboard">
-                    <Dashboard />
+                <Route path="/mail">
+                    <Contact />
                 </Route>
             </Switch>
         </Router>

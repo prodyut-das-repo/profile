@@ -4,6 +4,7 @@
   "homepage": "https://prodyut-das-repo.github.io/profile",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^3.10.0",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
@@ -51,9 +52,12 @@
     "@typescript-eslint/parser": "^5.6.0",
     "eslint": "^7.32.0",
     "gh-pages": "^4.0.0",
+    "install": "^0.13.0",
+    "npm": "^9.3.1",
     "react-draggable": "^4.4.5",
     "react-icons": "^4.4.0",
     "react-typewriter-effect": "^1.1.0",
-    "typescript": "^4.8.3"
+    "typescript": "^4.8.3",
+    "validator": "^13.7.0"
   }
 }
