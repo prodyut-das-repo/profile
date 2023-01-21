@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/profile/static/css/main.9eb2ea5d.css",
-    "main.js": "/profile/static/js/main.a4be9a14.js",
+    "main.css": "/profile/static/css/main.ccf30cf2.css",
+    "main.js": "/profile/static/js/main.8f3d36aa.js",
     "static/js/787.f2a0fa2f.chunk.js": "/profile/static/js/787.f2a0fa2f.chunk.js",
     "static/media/team.jpg": "/profile/static/media/team.7eae22a2c41889d0b982.jpg",
     "static/media/solver.jpg": "/profile/static/media/solver.9712947f4bd6d07cd706.jpg",
+    "static/media/getintouch.jpg": "/profile/static/media/getintouch.cce3d9717e7979c995db.jpg",
     "static/media/expertise.jpg": "/profile/static/media/expertise.82a5238bf64b86e76aa6.jpg",
     "static/media/flexi-image.jpg": "/profile/static/media/flexi-image.65da0d86896775a7be33.jpg",
     "static/media/expertise-image.png": "/profile/static/media/expertise-image.a23b1c3bee6ce69d3621.png",
@@ -15,12 +16,12 @@
     "static/media/cover.svg": "/profile/static/media/cover.e7fd0478451b8d72ff9b93b1ea475b66.svg",
     "static/media/cisco.png": "/profile/static/media/cisco.aa08a8c8a8a76416427b.png",
     "index.html": "/profile/index.html",
-    "main.9eb2ea5d.css.map": "/profile/static/css/main.9eb2ea5d.css.map",
-    "main.a4be9a14.js.map": "/profile/static/js/main.a4be9a14.js.map",
+    "main.ccf30cf2.css.map": "/profile/static/css/main.ccf30cf2.css.map",
+    "main.8f3d36aa.js.map": "/profile/static/js/main.8f3d36aa.js.map",
     "787.f2a0fa2f.chunk.js.map": "/profile/static/js/787.f2a0fa2f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9eb2ea5d.css",
-    "static/js/main.a4be9a14.js"
+    "static/css/main.ccf30cf2.css",
+    "static/js/main.8f3d36aa.js"
   ]
 }
