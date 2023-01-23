@@ -7,7 +7,7 @@ export default function Accordion(props: any) {
         <h3>Work Experiences</h3>
         <div className="row">
             <div className="col">
-                <div className="tabs">
+                <div className="tabs shadow">
                     {props.experience.map((item, index) =>
                         <div className="tab">
                             <input type="checkbox" id={`chck${index + 1}`} />
