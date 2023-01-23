@@ -13,6 +13,7 @@
     "work_experience": [
       {
         "company": "CAPGEMINI TECHNOLOGY SERVICES INDIA LIMITED",
+        "duration": "Sep 2018 - Mar 2021",
         "projects": [
           {
             "title": "Wealth Management Application for Internal RM (Project I)",
@@ -47,6 +48,7 @@
       },
       {
         "company": "CISCO SYSTEMS INDIA PVT. LTD",
+        "duration": "Mar 2021 - Present",
         "projects": [
           {
             "title": "Webex Contact Center",

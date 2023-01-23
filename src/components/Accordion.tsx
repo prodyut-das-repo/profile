@@ -11,7 +11,7 @@ export default function Accordion(props: any) {
                     {props.experience.map((item, index) =>
                         <div className="tab">
                             <input type="checkbox" id={`chck${index + 1}`} />
-                            <label className="tab-label border-bot" htmlFor={`chck${index + 1}`} ><img src={index === 0 ? capgemini : cisco} height='30' /></label>
+                            <label className="tab-label border-bot" htmlFor={`chck${index + 1}`} ><span><img src={index === 0 ? capgemini : cisco} height='30' /><p>{item.duration}</p></span></label>
                             <div className="tab-content">
                                 {item.projects.map(project => 
                                     <>
