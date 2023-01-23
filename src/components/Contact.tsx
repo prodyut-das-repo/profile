@@ -39,7 +39,7 @@ export default function Contact() {
     
   }
   return (
-    <div style={{ padding: '10px' }} className="contact">
+    <div style={{ padding: '10px' }} className="contact shadow">
       <section id="contact">
         <div className="contact-box">
           <div className="contact-links">
@@ -61,9 +61,11 @@ export default function Contact() {
                 <textarea className="" name="message" required onChange={(e) => setMessage(e.target.value)} value={message}></textarea>
                 <label>Message:</label>
               </div>
-              <div className='error'>{emailError}</div>
               <input type='submit' className="submit-btn" value={send}/>
             </form>
+            <div className='error-container'>
+              <span className='error'>{emailError}</span>
+            </div>
           </div>
         </div>
       </section>
