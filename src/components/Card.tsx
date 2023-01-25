@@ -15,7 +15,7 @@ export default function Card(props: ICard) {
                 <div className="overlay">
                     <div className="overlay-text">
                         <img src={props.shield} height="200" />
-                        <p className='text'>
+                        <span className='text'>
                             <TypeWriterEffect
                                 textStyle={{
                                     fontFamily: 'Courier New',
@@ -28,7 +28,7 @@ export default function Card(props: ICard) {
                                 text={props.text}
                                 typeSpeed={30}
                             />
-                        </p>
+                        </span>
                     </div>
                 </div>
             </div>
@@ -39,7 +39,7 @@ export default function Card(props: ICard) {
             </div>
             <div className="overlay-text">
                         <img src={props.shield} height="200" className='shadow' />
-                        <p className='text'>
+                        <span className='text'>
                             <TypeWriterEffect
                                 textStyle={{
                                     fontFamily: 'Courier New',
@@ -52,7 +52,7 @@ export default function Card(props: ICard) {
                                 text={props.text}
                                 typeSpeed={30}
                             />
-                        </p>
+                        </span>
                     </div>
         </div>
         </div>

@@ -9,7 +9,7 @@ export default function About() {
       <h3>PERSONAL PROFILE</h3>
       <ul>
         {state.data.profile.map(item =>
-          <li>{item}</li>
+          <li key={item}>{item}</li>
         )}
       </ul>
       <Accordion experience={state.data.work_experience} />

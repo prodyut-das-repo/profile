@@ -39,8 +39,8 @@ export default function Contact() {
     
   }
   return (
-    <div style={{ padding: '10px' }} className="contact shadow">
-      <section id="contact">
+    <div style={{ padding: '10px' }} className="contact">
+      <section id="contact" className='shadow'>
         <div className="contact-box">
           <div className="contact-links">
             <div className="links">
