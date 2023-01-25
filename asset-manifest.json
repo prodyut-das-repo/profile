@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/profile/static/css/main.dd1156f1.css",
-    "main.js": "/profile/static/js/main.5af80458.js",
+    "main.css": "/profile/static/css/main.d84667f4.css",
+    "main.js": "/profile/static/js/main.6975e179.js",
     "static/js/787.f2a0fa2f.chunk.js": "/profile/static/js/787.f2a0fa2f.chunk.js",
+    "static/media/contactbg.png": "/profile/static/media/contactbg.937a93747bf684664cf8.png",
     "static/media/solver.jpg": "/profile/static/media/solver.9712947f4bd6d07cd706.jpg",
     "static/media/team.jpg": "/profile/static/media/team.774f7bcbc169f5f922e4.jpg",
     "static/media/expertise.jpg": "/profile/static/media/expertise.82a5238bf64b86e76aa6.jpg",
@@ -16,12 +17,12 @@
     "static/media/cover.svg": "/profile/static/media/cover.e7fd0478451b8d72ff9b93b1ea475b66.svg",
     "static/media/cisco.png": "/profile/static/media/cisco.aa08a8c8a8a76416427b.png",
     "index.html": "/profile/index.html",
-    "main.dd1156f1.css.map": "/profile/static/css/main.dd1156f1.css.map",
-    "main.5af80458.js.map": "/profile/static/js/main.5af80458.js.map",
+    "main.d84667f4.css.map": "/profile/static/css/main.d84667f4.css.map",
+    "main.6975e179.js.map": "/profile/static/js/main.6975e179.js.map",
     "787.f2a0fa2f.chunk.js.map": "/profile/static/js/787.f2a0fa2f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd1156f1.css",
-    "static/js/main.5af80458.js"
+    "static/css/main.d84667f4.css",
+    "static/js/main.6975e179.js"
   ]
 }
